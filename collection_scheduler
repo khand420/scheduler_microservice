@@ -1,0 +1,98 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "scheduler",
+    "collectionId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+    "dateExported": "2024-08-10T19:17:23.110Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "071e3da7-c531-4dac-a968-c3c5eaa4488c",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "post",
+            "url": "http://127.0.0.1:8000/api/jobs/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-10T18:25:24.567Z",
+            "modified": "2024-08-10T19:16:28.720Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\": \"whatsapp Notification Job\",\r\n    \"schedule\": \"every Monday at 11:00 AM\",\r\n    \"interval_type\": \"monthly\",\r\n    \"interval_value\": 2,\r\n    \"custom_attributes\": {\r\n        \"email_subject\": \"monthly Report\",\r\n        \"recipient\": \"puspa2@gmail.com\"\r\n    }\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "c369549b-e627-422f-a76d-e1a26e291147",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "patch",
+            "url": "http://127.0.0.1:8000/api/jobs/6/",
+            "method": "PATCH",
+            "sortNum": 15000,
+            "created": "2024-08-10T18:42:19.838Z",
+            "modified": "2024-08-10T19:15:59.426Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\r\n    \"custom_attributes\": {\r\n        \"email_subject\": \"Weekly Report -updated\",\r\n        \"recipient\": \"puspa@gmail.com\"\r\n    }\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "749a3927-78ca-483e-9578-3fc11cc36de8",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "put",
+            "url": "http://127.0.0.1:8000/api/jobs/5/",
+            "method": "PUT",
+            "sortNum": 17500,
+            "created": "2024-08-10T18:43:28.789Z",
+            "modified": "2024-08-10T19:12:26.073Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\": \"Email Notification Job\",\r\n    \"schedule\": \"every Monday at 10:00 AM\",\r\n    \"interval_type\": \"weekly\",\r\n    \"interval_value\": 1,\r\n    \"custom_attributes\": {\r\n        \"email_subject\": \"Weekly Report\",\r\n        \"recipient\": \"puspa@gmail.com\"\r\n    }\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "100f5218-8376-4c8a-a88a-e8f68f1cf699",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "destroy",
+            "url": "http://127.0.0.1:8000/api/jobs/1/",
+            "method": "DELETE",
+            "sortNum": 18750,
+            "created": "2024-08-10T18:43:34.006Z",
+            "modified": "2024-08-10T19:11:14.734Z",
+            "headers": []
+        },
+        {
+            "_id": "86dd5f57-e0b7-4cd6-9763-6e7a328556fa",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "get by id",
+            "url": "http://127.0.0.1:8000/api/jobs/5/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-10T18:29:49.706Z",
+            "modified": "2024-08-10T19:16:13.425Z",
+            "headers": []
+        },
+        {
+            "_id": "3e153d4c-7d38-4b2f-8fff-b1e7b2c57c86",
+            "colId": "714d9d6d-ca2b-4646-9c1c-8a72ffd689af",
+            "containerId": "",
+            "name": "list all",
+            "url": "http://127.0.0.1:8000/api/jobs/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-10T18:32:33.628Z",
+            "modified": "2024-08-10T19:12:42.906Z",
+            "headers": []
+        }
+    ],
+    "ref": "5fdTUbsfuRVy5c4ZMHZa2LO5vJTjSco5K-Ws45caat5Jt3LkdbxRp36MvlQinacFi1YGk9HcB83C6y5n_dtzUg"
+}
